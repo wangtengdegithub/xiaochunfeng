@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		855B74201C0D378500776EC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 855B741F1C0D378500776EC4 /* main.m */; };
+		855B74231C0D378500776EC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 855B74221C0D378500776EC4 /* AppDelegate.m */; };
+		855B74261C0D378500776EC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 855B74251C0D378500776EC4 /* ViewController.m */; };
+		855B74291C0D378500776EC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855B74271C0D378500776EC4 /* Main.storyboard */; };
+		855B742B1C0D378500776EC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 855B742A1C0D378500776EC4 /* Assets.xcassets */; };
+		855B742E1C0D378500776EC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855B742C1C0D378500776EC4 /* LaunchScreen.storyboard */; };
+		855B74391C0D378500776EC4 /* wang_teng_de_ban_yun_gong_ren_shengTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 855B74381C0D378500776EC4 /* wang_teng_de_ban_yun_gong_ren_shengTests.m */; };
+		855B74441C0D378500776EC4 /* wang_teng_de_ban_yun_gong_ren_shengUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 855B74431C0D378500776EC4 /* wang_teng_de_ban_yun_gong_ren_shengUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		855B74351C0D378500776EC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 855B74131C0D378500776EC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 855B741A1C0D378500776EC4;
+			remoteInfo = "wang teng de ban yun gong ren sheng";
+		};
+		855B74401C0D378500776EC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 855B74131C0D378500776EC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 855B741A1C0D378500776EC4;
+			remoteInfo = "wang teng de ban yun gong ren sheng";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		855B741B1C0D378500776EC4 /* wang teng de ban yun gong ren sheng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wang teng de ban yun gong ren sheng.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		855B741F1C0D378500776EC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		855B74211C0D378500776EC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		855B74221C0D378500776EC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		855B74241C0D378500776EC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		855B74251C0D378500776EC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		855B74281C0D378500776EC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		855B742A1C0D378500776EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		855B742D1C0D378500776EC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		855B742F1C0D378500776EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		855B74341C0D378500776EC4 /* wang teng de ban yun gong ren shengTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wang teng de ban yun gong ren shengTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		855B74381C0D378500776EC4 /* wang_teng_de_ban_yun_gong_ren_shengTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wang_teng_de_ban_yun_gong_ren_shengTests.m; sourceTree = "<group>"; };
+		855B743A1C0D378500776EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		855B743F1C0D378500776EC4 /* wang teng de ban yun gong ren shengUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wang teng de ban yun gong ren shengUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		855B74431C0D378500776EC4 /* wang_teng_de_ban_yun_gong_ren_shengUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wang_teng_de_ban_yun_gong_ren_shengUITests.m; sourceTree = "<group>"; };
+		855B74451C0D378500776EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		855B74181C0D378500776EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855B74311C0D378500776EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855B743C1C0D378500776EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		855B74121C0D378500776EC4 = {
+			isa = PBXGroup;
+			children = (
+				855B741D1C0D378500776EC4 /* wang teng de ban yun gong ren sheng */,
+				855B74371C0D378500776EC4 /* wang teng de ban yun gong ren shengTests */,
+				855B74421C0D378500776EC4 /* wang teng de ban yun gong ren shengUITests */,
+				855B741C1C0D378500776EC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		855B741C1C0D378500776EC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				855B741B1C0D378500776EC4 /* wang teng de ban yun gong ren sheng.app */,
+				855B74341C0D378500776EC4 /* wang teng de ban yun gong ren shengTests.xctest */,
+				855B743F1C0D378500776EC4 /* wang teng de ban yun gong ren shengUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		855B741D1C0D378500776EC4 /* wang teng de ban yun gong ren sheng */ = {
+			isa = PBXGroup;
+			children = (
+				855B74211C0D378500776EC4 /* AppDelegate.h */,
+				855B74221C0D378500776EC4 /* AppDelegate.m */,
+				855B74241C0D378500776EC4 /* ViewController.h */,
+				855B74251C0D378500776EC4 /* ViewController.m */,
+				855B74271C0D378500776EC4 /* Main.storyboard */,
+				855B742A1C0D378500776EC4 /* Assets.xcassets */,
+				855B742C1C0D378500776EC4 /* LaunchScreen.storyboard */,
+				855B742F1C0D378500776EC4 /* Info.plist */,
+				855B741E1C0D378500776EC4 /* Supporting Files */,
+			);
+			path = "wang teng de ban yun gong ren sheng";
+			sourceTree = "<group>";
+		};
+		855B741E1C0D378500776EC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				855B741F1C0D378500776EC4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		855B74371C0D378500776EC4 /* wang teng de ban yun gong ren shengTests */ = {
+			isa = PBXGroup;
+			children = (
+				855B74381C0D378500776EC4 /* wang_teng_de_ban_yun_gong_ren_shengTests.m */,
+				855B743A1C0D378500776EC4 /* Info.plist */,
+			);
+			path = "wang teng de ban yun gong ren shengTests";
+			sourceTree = "<group>";
+		};
+		855B74421C0D378500776EC4 /* wang teng de ban yun gong ren shengUITests */ = {
+			isa = PBXGroup;
+			children = (
+				855B74431C0D378500776EC4 /* wang_teng_de_ban_yun_gong_ren_shengUITests.m */,
+				855B74451C0D378500776EC4 /* Info.plist */,
+			);
+			path = "wang teng de ban yun gong ren shengUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		855B741A1C0D378500776EC4 /* wang teng de ban yun gong ren sheng */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855B74481C0D378500776EC4 /* Build configuration list for PBXNativeTarget "wang teng de ban yun gong ren sheng" */;
+			buildPhases = (
+				855B74171C0D378500776EC4 /* Sources */,
+				855B74181C0D378500776EC4 /* Frameworks */,
+				855B74191C0D378500776EC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wang teng de ban yun gong ren sheng";
+			productName = "wang teng de ban yun gong ren sheng";
+			productReference = 855B741B1C0D378500776EC4 /* wang teng de ban yun gong ren sheng.app */;
+			productType = "com.apple.product-type.application";
+		};
+		855B74331C0D378500776EC4 /* wang teng de ban yun gong ren shengTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855B744B1C0D378500776EC4 /* Build configuration list for PBXNativeTarget "wang teng de ban yun gong ren shengTests" */;
+			buildPhases = (
+				855B74301C0D378500776EC4 /* Sources */,
+				855B74311C0D378500776EC4 /* Frameworks */,
+				855B74321C0D378500776EC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				855B74361C0D378500776EC4 /* PBXTargetDependency */,
+			);
+			name = "wang teng de ban yun gong ren shengTests";
+			productName = "wang teng de ban yun gong ren shengTests";
+			productReference = 855B74341C0D378500776EC4 /* wang teng de ban yun gong ren shengTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		855B743E1C0D378500776EC4 /* wang teng de ban yun gong ren shengUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855B744E1C0D378500776EC4 /* Build configuration list for PBXNativeTarget "wang teng de ban yun gong ren shengUITests" */;
+			buildPhases = (
+				855B743B1C0D378500776EC4 /* Sources */,
+				855B743C1C0D378500776EC4 /* Frameworks */,
+				855B743D1C0D378500776EC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				855B74411C0D378500776EC4 /* PBXTargetDependency */,
+			);
+			name = "wang teng de ban yun gong ren shengUITests";
+			productName = "wang teng de ban yun gong ren shengUITests";
+			productReference = 855B743F1C0D378500776EC4 /* wang teng de ban yun gong ren shengUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		855B74131C0D378500776EC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tarena;
+				TargetAttributes = {
+					855B741A1C0D378500776EC4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					855B74331C0D378500776EC4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 855B741A1C0D378500776EC4;
+					};
+					855B743E1C0D378500776EC4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 855B741A1C0D378500776EC4;
+					};
+				};
+			};
+			buildConfigurationList = 855B74161C0D378500776EC4 /* Build configuration list for PBXProject "wang teng de ban yun gong ren sheng" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 855B74121C0D378500776EC4;
+			productRefGroup = 855B741C1C0D378500776EC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				855B741A1C0D378500776EC4 /* wang teng de ban yun gong ren sheng */,
+				855B74331C0D378500776EC4 /* wang teng de ban yun gong ren shengTests */,
+				855B743E1C0D378500776EC4 /* wang teng de ban yun gong ren shengUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		855B74191C0D378500776EC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855B742E1C0D378500776EC4 /* LaunchScreen.storyboard in Resources */,
+				855B742B1C0D378500776EC4 /* Assets.xcassets in Resources */,
+				855B74291C0D378500776EC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855B74321C0D378500776EC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855B743D1C0D378500776EC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		855B74171C0D378500776EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855B74261C0D378500776EC4 /* ViewController.m in Sources */,
+				855B74231C0D378500776EC4 /* AppDelegate.m in Sources */,
+				855B74201C0D378500776EC4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855B74301C0D378500776EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855B74391C0D378500776EC4 /* wang_teng_de_ban_yun_gong_ren_shengTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855B743B1C0D378500776EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855B74441C0D378500776EC4 /* wang_teng_de_ban_yun_gong_ren_shengUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		855B74361C0D378500776EC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 855B741A1C0D378500776EC4 /* wang teng de ban yun gong ren sheng */;
+			targetProxy = 855B74351C0D378500776EC4 /* PBXContainerItemProxy */;
+		};
+		855B74411C0D378500776EC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 855B741A1C0D378500776EC4 /* wang teng de ban yun gong ren sheng */;
+			targetProxy = 855B74401C0D378500776EC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		855B74271C0D378500776EC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				855B74281C0D378500776EC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		855B742C1C0D378500776EC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				855B742D1C0D378500776EC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		855B74461C0D378500776EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		855B74471C0D378500776EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		855B74491C0D378500776EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "wang teng de ban yun gong ren sheng/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.wang-teng-de-ban-yun-gong-ren-sheng";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		855B744A1C0D378500776EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "wang teng de ban yun gong ren sheng/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.wang-teng-de-ban-yun-gong-ren-sheng";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		855B744C1C0D378500776EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "wang teng de ban yun gong ren shengTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.wang-teng-de-ban-yun-gong-ren-shengTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wang teng de ban yun gong ren sheng.app/wang teng de ban yun gong ren sheng";
+			};
+			name = Debug;
+		};
+		855B744D1C0D378500776EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "wang teng de ban yun gong ren shengTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.wang-teng-de-ban-yun-gong-ren-shengTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wang teng de ban yun gong ren sheng.app/wang teng de ban yun gong ren sheng";
+			};
+			name = Release;
+		};
+		855B744F1C0D378500776EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "wang teng de ban yun gong ren shengUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.wang-teng-de-ban-yun-gong-ren-shengUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "wang teng de ban yun gong ren sheng";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		855B74501C0D378500776EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "wang teng de ban yun gong ren shengUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.wang-teng-de-ban-yun-gong-ren-shengUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "wang teng de ban yun gong ren sheng";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		855B74161C0D378500776EC4 /* Build configuration list for PBXProject "wang teng de ban yun gong ren sheng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855B74461C0D378500776EC4 /* Debug */,
+				855B74471C0D378500776EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		855B74481C0D378500776EC4 /* Build configuration list for PBXNativeTarget "wang teng de ban yun gong ren sheng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855B74491C0D378500776EC4 /* Debug */,
+				855B744A1C0D378500776EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		855B744B1C0D378500776EC4 /* Build configuration list for PBXNativeTarget "wang teng de ban yun gong ren shengTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855B744C1C0D378500776EC4 /* Debug */,
+				855B744D1C0D378500776EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		855B744E1C0D378500776EC4 /* Build configuration list for PBXNativeTarget "wang teng de ban yun gong ren shengUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855B744F1C0D378500776EC4 /* Debug */,
+				855B74501C0D378500776EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 855B74131C0D378500776EC4 /* Project object */;
+}
